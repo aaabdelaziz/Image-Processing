@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "inc/image_handlers.h"
+#include "../inc/image_handlers.h"
 
-int main()
+int main(int argc, char const *argv[])
 {
    int imgWidth, imgHeight, imgBitDepth;
    unsigned char imgHeader[BMP_HEADER_SIZE];

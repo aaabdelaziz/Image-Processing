@@ -28,6 +28,8 @@ void imageReader(const char *imgName,
                  unsigned char *colorTable,
                  unsigned char *buffer);
 
+void imageWriter(newImgName,imgHeader,imgColorTable,imgBuffer,imgBitDepth);
+
 /**
  * Writes a BMP image file from given header, color table, and pixel data.
  * 
@@ -36,3 +38,6 @@ void imageReader(const char *imgName,
  * @param colorTable   Pointer to the color table (only used if bit depth <= 8).
  * @param buffer       Pointer to the image pixel buffer.
  * @param bitDepth     Bit depth of the i*
+ */
+
+ #endif
