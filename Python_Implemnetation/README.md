@@ -88,9 +88,9 @@ Each folder includes:
 
 You can install dependencies using:
 
-```bash
+```
 pip install -r requirements.txt
-
+```
 
 ``` 1- To Create/Run Python Environment here using conda
     conda create -n KNCVU python=3.11
@@ -99,3 +99,4 @@ pip install -r requirements.txt
     
     2- To install OpenCV
     3-Perform Read/Write on images using openCV
+```
