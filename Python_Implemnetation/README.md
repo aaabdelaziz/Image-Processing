@@ -15,7 +15,7 @@ All operations are implemented in **pure Python**, using only minimal external l
 
 ---
 
-## 🧠 Topics Covered
+## 🧠 Topics to be Covered
 
 This Python version covers the same core concepts:
 
