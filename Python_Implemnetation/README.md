@@ -1,6 +1,6 @@
 # Image Processing in Python – From Ground Up
 
-This repository contains Python implementations of fundamental image processing techniques, inspired by and adapted from the **"Image Processing From Ground Up™ in C"** Udemy course.
+This repository contains Python implementations of fundamental image processing techniques, inspired by and adapted from the **"Image Processing From Ground Up™ in C"** Udemy course. I'm implementing what I have learned time by time. Note that It's not complete yet.
 
 All operations are implemented in **pure Python**, using only minimal external libraries (e.g., NumPy and matplotlib) where necessary for visualization or array operations—focusing on educational value and understanding.
 
@@ -56,19 +56,33 @@ This Python version covers the same core concepts:
 
 ---
 
+
 ## 📁 Project Structure
 
-    /image-processing-python
-
-    ├── /01_image_io # Reading/writing images
-    ├── /02_pixel_operations # Grayscale, invert, brightness, contrast
-    ├── /03_convolution_filters # Blur, sharpen, edge detection
-    ├── /04_histogram # Histogram calculation and equalization
-    ├── /05_noise_and_filtering # Noise injection and removal
-    ├── /06_thresholding # Thresholding techniques
-    ├── /07_edge_detection # Manual edge detection implementations
-    ├── /08_morphology # Morphological ops
-    └── /09_transformations # Rotate, flip, crop
+```
+📁 Python_Implementation
+├── 📁 images                             # Sample input/output images
+├── 1-ImageCreate.ipynb                  # Creating images using NumPy arrays
+├── 1-ImageOperations.ipynb              # Grayscale, inversion, brightness, contrast
+├── 2-VideoDisplay.py                    # Displaying videos with OpenCV
+├── 3-VideoReadWrite.py                  # Reading and writing video files
+├── 4-ColorThresholding.ipynb            # Global and adaptive thresholding
+├── 5-ImageResizing.ipynb                # Image scaling and resizing
+├── 6-ImageFlippingRotatingCropping.ipynb# Flip, rotate, crop images
+├── 7-CreatingShapes.ipynb               # Drawing shapes on images
+├── 8-AffineTransformations.ipynb        # Translation, rotation, scaling using matrices
+├── 9-ImageFilters.ipynb                 # Sharpening and smoothing filters
+├── 10-ImageBlurring.ipynb               # Mean, Gaussian, and median blurring
+├── 11-EdgeDetection.ipynb               # Edge detection techniques
+├── 12-Histogram.ipynb                   # Plotting histograms
+├── 13-HistogramEqualization.ipynb       # Contrast enhancement
+├── mountain.mp4                         # Sample video file
+├── output.jpg                           # Example output image
+├── README.md                            # Project documentation
+├── requirements.txt                     # Python dependencies
+├── .gitignore                           # Git ignore rules
+└── LICENSE                              # License information
+```
 
 Each folder includes:
 - Python source files (`.py`)
